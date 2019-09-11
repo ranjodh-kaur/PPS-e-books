@@ -76,12 +76,12 @@ Show Examples
 **Bitwise Operators**
 Bitwise operator works on bits and perform bit-by-bit operation. The truth tables for &, |, and ^ is as follows −
 
-|p	|q|	p & q|	p | q	|p ^ q|
-|---|-|------|----|-----|-----|
-|0	|0|	0	 |   0	    |0    |
-|0	|1|	0	 |1     	|1|
-|1	|1|	1	 |1	|0|
-|1	|0|	0	 |1	|1|
+|p|q|p & q|p|q|p^q|
+|-|-|-----|-|-|---|
+|0|0|0 |0|0|
+|0|1|0 |1|1|
+|1|1|1 |1|0|
+|1|0|0 |1|1|
 Assume A = 60 and B = 13 in binary format, they will be as follows −
 
 A = 0011 1100
