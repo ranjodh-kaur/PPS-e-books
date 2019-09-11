@@ -103,8 +103,8 @@ The following table lists the bitwise operators supported by C. Assume variable 
 
 Show Examples
 
-|Operator|	Description	Example|
-|--------|--------|
+|Operator|	Description	|Example|
+|--------|--------------|-------|
 |&	|Binary AND Operator copies a bit to the result if it exists in both operands.|	(A & B) = 12, i.e., 0000 1100|
 |\|	|Binary OR Operator copies a bit if it exists in either operand.|	(A | B) = 61, i.e., 0011 1101|
 |^|	Binary XOR Operator copies the bit if it is set in one operand but not both.|	(A ^ B) = 49, i.e., 0011 0001|
