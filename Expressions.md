@@ -105,27 +105,27 @@ Show Examples
 |Operator|	Description	Example|
 |--------|--------|
 |&	|Binary AND Operator copies a bit to the result if it exists in both operands.|	(A & B) = 12, i.e., 0000 1100|
-|'|'	|Binary OR Operator copies a bit if it exists in either operand.|	(A | B) = 61, i.e., 0011 1101|
+|   |	|Binary OR Operator copies a bit if it exists in either operand.|	(A | B) = 61, i.e., 0011 1101|
 |^|	Binary XOR Operator copies the bit if it is set in one operand but not both.|	(A ^ B) = 49, i.e., 0011 0001|
 |~|	Binary One's Complement Operator is unary and has the effect of 'flipping' bits.|	(~A ) = ~(60), i.e,. -0111101|
-<<	Binary Left Shift Operator. The left operands value is moved left by the number of bits specified by the right operand.	A << 2 = 240 i.e., 1111 0000
->>	Binary Right Shift Operator. The left operands value is moved right by the number of bits specified by the right operand.	A >> 2 = 15 i.e., 0000 1111
-Assignment Operators
+|<<|	Binary Left Shift Operator. The left operands value is moved left by the number of bits specified by the right operand.|	A << 2 = 240 i.e., 1111 0000|
+|>>|	Binary Right Shift Operator. The left operands value is moved right by the number of bits specified by the right operand.	|A >> 2 = 15 i.e., 0000 1111|
+**Assignment Operators**
 The following table lists the assignment operators supported by the C language −
 
 Show Examples
 
-Operator	Description	Example
-=	Simple assignment operator. Assigns values from right side operands to left side operand	C = A + B will assign the value of A + B to C
-+=	Add AND assignment operator. It adds the right operand to the left operand and assign the result to the left operand.	C += A is equivalent to C = C + A
--=	Subtract AND assignment operator. It subtracts the right operand from the left operand and assigns the result to the left operand.	C -= A is equivalent to C = C - A
-*=	Multiply AND assignment operator. It multiplies the right operand with the left operand and assigns the result to the left operand.	C *= A is equivalent to C = C * A
-/=	Divide AND assignment operator. It divides the left operand with the right operand and assigns the result to the left operand.	C /= A is equivalent to C = C / A
-%=	Modulus AND assignment operator. It takes modulus using two operands and assigns the result to the left operand.	C %= A is equivalent to C = C % A
-<<=	Left shift AND assignment operator.	C <<= 2 is same as C = C << 2
->>=	Right shift AND assignment operator.	C >>= 2 is same as C = C >> 2
-&=	Bitwise AND assignment operator.	C &= 2 is same as C = C & 2
-^=	Bitwise exclusive OR and assignment operator.	C ^= 2 is same as C = C ^ 2
-|=	Bitwise inclusive OR and assignment operator.	C |= 2 is same as C = C | 2
+|Operator|	Description|	Example|
+|=|	Simple assignment operator. Assigns values from right side operands to left side operand|	C = A + B will assign the value of A + B to C|
+|+=|	Add AND assignment operator. It adds the right operand to the left operand and assign the result to the left operand.|	C += A is equivalent to C = C + A|
+|-=|	Subtract AND assignment operator. It subtracts the right operand from the left operand and assigns the result to the left operand.|	C -= A is equivalent to C = C - A|
+|*=|	Multiply AND assignment operator. It multiplies the right operand with the left operand and assigns the result to the left operand.|	C *= A is equivalent to C = C * A|
+|/=|	Divide AND assignment operator. It divides the left operand with the right operand and assigns the result to the left operand.	|C /= A is equivalent to C = C / A|
+|%=|	Modulus AND assignment operator. It takes modulus using two operands and assigns the result to the left operand.|	C %= A is equivalent to C = C % A|
+|<<=|	Left shift AND assignment operator.|	C <<= 2 is same as C = C << 2|
+|>>=|	Right shift AND assignment operator.|	C >>= 2 is same as C = C >> 2|
+|&=	|Bitwise AND assignment operator.|	C &= 2 is same as C = C & 2|
+|^=|	Bitwise exclusive OR and assignment operator.|	C ^= 2 is same as C = C ^ 2|
+||=|	Bitwise inclusive OR and assignment operator.|	C |= 2 is same as C = C | 2|
 
 
