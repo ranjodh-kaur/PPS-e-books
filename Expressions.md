@@ -76,9 +76,9 @@ Show Examples
 **Bitwise Operators**
 Bitwise operator works on bits and perform bit-by-bit operation. The truth tables for &, |, and ^ is as follows −
 
-|p|q|p & q|p|q|p^q|
-|-|-|-----|-|-|---|
-|0|0|0 |0|0|
+|p|q|p & q| p |q  |p^q|
+|-|-|-----|-------|-  |
+|0|0|0|0|0|
 |0|1|0 |1|1|
 |1|1|1 |1|0|
 |1|0|0 |1|1|
