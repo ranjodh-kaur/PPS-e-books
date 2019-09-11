@@ -67,18 +67,20 @@ Following table shows all the logical operators supported by C language. Assume 
 
 Show Examples
 
-|Operator	Description	Example
-&&	Called Logical AND operator. If both the operands are non-zero, then the condition becomes true.	(A && B) is false.
-||	Called Logical OR Operator. If any of the two operands is non-zero, then the condition becomes true.	(A || B) is true.
-!	Called Logical NOT Operator. It is used to reverse the logical state of its operand. If a condition is true, then Logical NOT operator will make it false.	!(A && B) is true.
-Bitwise Operators
+|Operator|	Description|	Example|
+|--------|-------------|-----------|
+|&&	|Called Logical AND operator.| If both the operands are non-zero, then the condition becomes true.	(A && B) is false.|
+| || |	Called Logical OR Operator.| If any of the two operands is non-zero, then the condition becomes true.	(A || B) is true.|
+| !|	Called Logical NOT Operator.| It is used to reverse the logical state of its operand. If a condition is true, then Logical NOT operator will make it false.	!(A && B) is true.|
+**Bitwise Operators**
 Bitwise operator works on bits and perform bit-by-bit operation. The truth tables for &, |, and ^ is as follows −
 
-p	q	p & q	p | q	p ^ q
-0	0	0	0	0
-0	1	0	1	1
-1	1	1	1	0
-1	0	0	1	1
+|p	|q|	p & q|	p | q	|p ^ q|
+|-----------------------------|
+|0	|0|	0	 |   0	    |0    |
+|0	|1|	0	 |1     	|1|
+|1	|1|	1	 |1	|0|
+|1	|0|	0	 |1	|1|
 Assume A = 60 and B = 13 in binary format, they will be as follows −
 
 A = 0011 1100
