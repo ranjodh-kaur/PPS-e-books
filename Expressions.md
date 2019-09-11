@@ -76,8 +76,8 @@ Show Examples
 **Bitwise Operators**
 Bitwise operator works on bits and perform bit-by-bit operation. The truth tables for &, |, and ^ is as follows −
 
-|p|q|p & q| p`|`q |p^q|
-|-|-|-----|-------|---|
+|p|q|p & q| p `|` q |p^q|
+|-|-|-----|---------|---|
 |0|0|0|0|0|
 |0|1|0 |1|1|
 |1|1|1 |1|0|
@@ -105,7 +105,7 @@ Show Examples
 |Operator|	Description	Example|
 |--------|--------|
 |&	|Binary AND Operator copies a bit to the result if it exists in both operands.|	(A & B) = 12, i.e., 0000 1100|
-|   `|`	|Binary OR Operator copies a bit if it exists in either operand.|	(A | B) = 61, i.e., 0011 1101|
+|`|`	|Binary OR Operator copies a bit if it exists in either operand.|	(A | B) = 61, i.e., 0011 1101|
 |^|	Binary XOR Operator copies the bit if it is set in one operand but not both.|	(A ^ B) = 49, i.e., 0011 0001|
 |~|	Binary One's Complement Operator is unary and has the effect of 'flipping' bits.|	(~A ) = ~(60), i.e,. -0111101|
 |<<|	Binary Left Shift Operator. The left operands value is moved left by the number of bits specified by the right operand.|	A << 2 = 240 i.e., 1111 0000|
@@ -127,6 +127,6 @@ Show Examples
 |>>=|	Right shift AND assignment operator.|	C >>= 2 is same as C = C >> 2|
 |&=	|Bitwise AND assignment operator.|	C &= 2 is same as C = C & 2|
 |^=|	Bitwise exclusive OR and assignment operator.|	C ^= 2 is same as C = C ^ 2|
-|`|=`|	Bitwise inclusive OR and assignment operator.|	C |= 2 is same as C = C | 2|
+|'|='|	Bitwise inclusive OR and assignment operator.|	C |= 2 is same as C = C | 2|
 
 
