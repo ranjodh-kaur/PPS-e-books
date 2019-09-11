@@ -69,15 +69,15 @@ Show Examples
 
 |Operator|	Description|	Example|
 |--------|-------------|-----------|
-|&&	|Called Logical AND operator.| If both the operands are non-zero, then the condition becomes true.	(A && B) is false.|
-| || |	Called Logical OR Operator.| If any of the two operands is non-zero, then the condition becomes true.	(A || B) is true.|
-| !|	Called Logical NOT Operator.| It is used to reverse the logical state of its operand. If a condition is true, then Logical NOT operator will make it false.	!(A && B) is true.|
+|&&	     |Called Logical AND operator.| If both the operands are non-zero, then the condition becomes true.	(A && B) is false.|
+| ||     |	Called Logical OR Operator.| If any of the two operands is non-zero, then the condition becomes true.	(A || B) is true.|
+| !      |	Called Logical NOT Operator.| It is used to reverse the logical state of its operand. If a condition is true, then Logical NOT operator will make it false.	!(A && B) is true.|
 
 **Bitwise Operators**
 Bitwise operator works on bits and perform bit-by-bit operation. The truth tables for &, |, and ^ is as follows âˆ’
 
 |p|q|p & q| p |q  |p^q|
-|-|-|-----|-------|---|
+|-|-|-----|--- ---|---|
 |0|0|0|0|0|
 |0|1|0 |1|1|
 |1|1|1 |1|0|
@@ -116,6 +116,7 @@ The following table lists the assignment operators supported by the C language â
 Show Examples
 
 |Operator|	Description|	Example|
+|--------|-------------|-----------|
 |=|	Simple assignment operator. Assigns values from right side operands to left side operand|	C = A + B will assign the value of A + B to C|
 |+=|	Add AND assignment operator. It adds the right operand to the left operand and assign the result to the left operand.|	C += A is equivalent to C = C + A|
 |-=|	Subtract AND assignment operator. It subtracts the right operand from the left operand and assigns the result to the left operand.|	C -= A is equivalent to C = C - A|
