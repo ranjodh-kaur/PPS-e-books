@@ -78,7 +78,7 @@ Bitwise operator works on bits and perform bit-by-bit operation. The truth table
 
 |p|q|p & q| p `|` q |p^q|
 |-|-|-----|---------|---|
-|0|0|0|0|0|
+|0|0|0 |0|0|
 |0|1|0 |1|1|
 |1|1|1 |1|0|
 |1|0|0 |1|1|
@@ -127,6 +127,6 @@ Show Examples
 |>>=|	Right shift AND assignment operator.|	C >>= 2 is same as C = C >> 2|
 |&=	|Bitwise AND assignment operator.|	C &= 2 is same as C = C & 2|
 |^=|	Bitwise exclusive OR and assignment operator.|	C ^= 2 is same as C = C ^ 2|
-|'|='|	Bitwise inclusive OR and assignment operator.|	C |= 2 is same as C = C | 2|
+|`|`=|	Bitwise inclusive OR and assignment operator.|	C `|`= 2 is same as C = C `|` 2|
 
 
