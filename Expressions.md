@@ -40,13 +40,13 @@ Show Examples
 
 |  Operator |  Description | Example                  |
 |-----------|--------------|--------------------------|
-|     +     |	Adds       | two operands.	A + B = 30|
-|     −	    |  Subtracts   | second operand from the first.	A − B = -10|
-|     *	    |Multiplies    |both operands.	A * B = 200|
-|    /      |Divides       | numerator by de-numerator.	B / A = 2|
-|    %      |Modulus       |Operator and remainder of after an integer division.	B % A = 0|
-|    ++     |Increment     |operator increases the integer value by one.	A++ = 11
-|    --	    |Decrement     |operator decreases the integer value by one.	A-- = 9|
+|     +     |	Adds two operands.|	A + B = 30|
+|     −	    |  Subtracts second operand from the first.|	A − B = -10|
+|     *	    |Multiplies both operands.|	A * B = 200|
+|    /      |Divides numerator by de-numerator.	|B / A = 2|
+|    %      |Modulus Operator and remainder of after an integer division.|	B % A = 0|
+|    ++     |Increment operator increases the integer value by one.|	A++ = 11
+|    --	    |Decrement operator decreases the integer value by one.|	A-- = 9|
 
 **Relational Operators**
 The following table shows all the relational operators supported by C. Assume variable A holds 10 and variable B holds 20 then −
@@ -70,7 +70,7 @@ Show Examples
 |Operator|	Description|	Example|
 |--------|-------------|-----------|
 |&&	     |Called Logical AND operator.| If both the operands are non-zero, then the condition becomes true.	(A && B) is false.|
-| ||     |	Called Logical OR Operator.| If any of the two operands is non-zero, then the condition becomes true.	(A || B) is true.|
+| \|\|     |	Called Logical OR Operator.| If any of the two operands is non-zero, then the condition becomes true.	(A || B) is true.|
 | !      |	Called Logical NOT Operator.| It is used to reverse the logical state of its operand. If a condition is true, then Logical NOT operator will make it false.	!(A && B) is true.|
 
 **Bitwise Operators**
@@ -82,6 +82,7 @@ Bitwise operator works on bits and perform bit-by-bit operation. The truth table
 |0|1|   0 |    1   |1  |
 |1|1|   1 |    1   |0  |
 |1|0|   0 |    1   |1  |
+
 Assume A = 60 and B = 13 in binary format, they will be as follows −
 
 A = 0011 1100
@@ -110,6 +111,7 @@ Show Examples
 |~|	Binary One's Complement Operator is unary and has the effect of 'flipping' bits.|	(~A ) = ~(60), i.e,. -0111101|
 |<<|	Binary Left Shift Operator. The left operands value is moved left by the number of bits specified by the right operand.|	A << 2 = 240 i.e., 1111 0000|
 |>>|	Binary Right Shift Operator. The left operands value is moved right by the number of bits specified by the right operand.	|A >> 2 = 15 i.e., 0000 1111|
+
 **Assignment Operators**
 The following table lists the assignment operators supported by the C language −
 
