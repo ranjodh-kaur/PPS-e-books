@@ -53,7 +53,7 @@ Show Examples
 |    ++     |Increment operator increases the integer value by one.|	A++ = 11
 |    --	    |Decrement operator decreases the integer value by one.|	A-- = 9|
 
-For Example: 
+Example: 
    
     // Working of arithmetic operators
     #include <stdio.h>
@@ -75,6 +75,14 @@ For Example:
        return 0;
     }
 
+Output
+
+    a+b = 13
+    a-b = 5
+    a*b = 36
+    a/b = 2
+    Remainder when a divided by b=1
+
 **Relational Operators**
 
 A relational operator checks the relationship between two operands. If the relation is true, it returns 1; if the relation is false, it returns value 0.
@@ -94,7 +102,8 @@ Show Examples
 |>=|	Checks if the value of left operand is greater than or equal to the value of right operand. If yes, then the condition becomes true.|	(A >= B) is not true.|
 |<=|	Checks if the value of left operand is less than or equal to the value of right operand. If yes, then the condition becomes true.|	(A <= B) is true.|
 
-Example :
+
+Example:
     // Working of relational operators
     #include <stdio.h>
     int main()
@@ -114,6 +123,21 @@ Example :
        printf("%d <= %d is %d \n", a, c, a <= c);
        return 0;
     }
+
+Output
+
+        5 == 5 is 1
+        5 == 10 is 0
+        5> 5 is 0
+        5 > 10 is 0
+        5 < 5 is 0
+        5 < 10 is 1
+        5 != 5 is 0
+        5 != 10 is 1
+        5 >= 5 is 1
+        5 >= 10 is 0
+        5 <= 5 is 1
+        5 <= 10 is 1
 
 **Logical Operators**
 
@@ -150,6 +174,25 @@ Example:
       printf("!(a == b) is %d \n", result);
       return 0;
     }
+
+Output
+
+        (a == b) && (c > b) is 1 
+        (a == b) && (c < b) is 0 
+        (a == b) || (c < b) is 1 
+        (a != b) || (c < b) is 0 
+        !(a != b) is 1 
+        !(a == b) is 0 
+
+Explanation of logical operator program
+
+        (a == b) && (c > 5) evaluates to 1 because both operands (a == b) and (c > b) is 1 (true).
+        (a == b) && (c < b) evaluates to 0 because operand (c < b) is 0 (false).
+        (a == b) || (c < b) evaluates to 1 because (a = b) is 1 (true).
+        (a != b) || (c < b) evaluates to 0 because both operand (a != b) and (c < b) are 0 (false).
+        !(a != b) evaluates to 1 because operand (a != b) is 0 (false). Hence, !(a != b) is 1 (true).
+        !(a == b) evaluates to 0 because (a == b) is 1 (true). Hence, !(a == b) is 0 (false).
+
 
 **Bitwise Operators**
 
@@ -200,6 +243,78 @@ Show Examples
 |~|	Binary One's Complement Operator is unary and has the effect of 'flipping' bits.|	(~A ) = ~(60), i.e,. -0111101|
 |<<|	Binary Left Shift Operator. The left operands value is moved left by the number of bits specified by the right operand.|	A << 2 = 240 i.e., 1111 0000|
 |>>|	Binary Right Shift Operator. The left operands value is moved right by the number of bits specified by the right operand.	|A >> 2 = 15 i.e., 0000 1111|
+
+Let us suppose the bitwise AND operation of two integers 12 and 25.
+
+        12 = 00001100 (In Binary)
+        25 = 00011001 (In Binary)
+
+        Bit Operation of 12 and 25
+          00001100
+        & 00011001
+          ________
+          00001000  = 8 (In decimal)
+
+Example #1: Bitwise AND
+        #include <stdio.h>
+        int main()
+        {
+            int a = 12, b = 25;
+            printf("Output = %d", a&b);
+            return 0;
+        }
+Output
+
+        Output = 8
+
+Bitwise OR operator |
+
+The output of bitwise OR is 1 if at least one corresponding bit of two operands is 1. In C Programming, bitwise OR operator is denoted by |.
+
+        12 = 00001100 (In Binary)
+        25 = 00011001 (In Binary)
+
+Bitwise OR Operation of 12 and 25
+          00001100
+        | 00011001
+          ________
+          00011101  = 29 (In decimal)
+
+Example #2: Bitwise OR
+        #include <stdio.h>
+        int main()
+        {
+            int a = 12, b = 25;
+            printf("Output = %d", a|b);
+            return 0;
+        }
+Output
+
+        Output = 29
+
+Bitwise XOR (exclusive OR) operator ^
+
+The result of bitwise XOR operator is 1 if the corresponding bits of two operands are opposite. It is denoted by ^.
+
+        12 = 00001100 (In Binary)
+        25 = 00011001 (In Binary)
+
+Bitwise XOR Operation of 12 and 25
+          00001100
+        ^ 00011001
+          ________
+          00010101  = 21 (In decimal)
+Example #3: Bitwise XOR
+        #include <stdio.h>
+        int main()
+        {
+            int a = 12, b = 25;
+            printf("Output = %d", a^b);
+            return 0;
+        }
+Output
+
+        Output = 21
 
 **Assignment Operators**
 
