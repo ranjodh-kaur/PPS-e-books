@@ -277,6 +277,7 @@ The output of bitwise OR is 1 if at least one corresponding bit of two operands 
         25 = 00011001 (In Binary)
 
 Bitwise OR Operation of 12 and 25
+
           00001100
         | 00011001
           ________
