@@ -142,7 +142,7 @@ Output
         5 <= 10 is 1
 
 **Logical Operators**
-
+-----------------------
 An expression containing logical operator returns either 0 or 1 depending upon whether expression results true or false. Logical operators are commonly used in decision making in C programming.
 
 Following table shows all the logical operators supported by C language. Assume variable A holds 1 and variable B holds 0, then −
@@ -197,6 +197,7 @@ Explanation of logical operator program
 
 
 **Bitwise Operators**
+----------------------------
 
 During computation, mathematical operations like: addition, subtraction, multiplication, division, etc are converted to bit-level which makes processing faster and saves power.
 
@@ -271,7 +272,7 @@ Output
         Output = 8
 
 **Bitwise OR operator |**
-
+------------------------------
 The output of bitwise OR is 1 if at least one corresponding bit of two operands is 1. In C Programming, bitwise OR operator is denoted by |.
 
         12 = 00001100 (In Binary)
@@ -298,7 +299,7 @@ Output
         Output = 29
 
 **Bitwise XOR (exclusive OR) operator ^**
-
+=========================================
 The result of bitwise XOR operator is 1 if the corresponding bits of two operands are opposite. It is denoted by ^.
 
         12 = 00001100 (In Binary)
@@ -325,7 +326,7 @@ Output
         Output = 21
 
 **Assignment Operators**
-
+--------------------------
 An assignment operator is used for assigning a value to a variable. The most common assignment operator is =
 
 The following table lists the assignment operators supported by the C language −
@@ -371,7 +372,7 @@ Example:
 Other Operators
 
 **The sizeof operator**
-
+-------------------------
 The sizeof is a unary operator that returns the size of data (constants, variables, array, structure, etc).
 
 Example 6: sizeof Operator
