@@ -41,7 +41,7 @@ An arithmetic operator performs mathematical operations such as addition, subtra
 
 The following table shows all the arithmetic operators supported by the C language. Assume variable A holds 10 and variable B holds 20 then −
 
-Show Examples
+Example:
 
 |  Operator |  Description | Example                  |
 |-----------|--------------|--------------------------|
@@ -91,7 +91,7 @@ Relational operators are used in decision making and loops.
 
 The following table shows all the relational operators supported by C. Assume variable A holds 10 and variable B holds 20 then −
 
-Show Examples
+Example:
 
 |Operator|	Description|	Example|
 |--------|-------------|-----------|
@@ -145,7 +145,7 @@ An expression containing logical operator returns either 0 or 1 depending upon w
 
 Following table shows all the logical operators supported by C language. Assume variable A holds 1 and variable B holds 0, then −
 
-Show Examples
+Example:
 
 |Operator|	Description|	Example|
 |--------|-------------|-----------|
@@ -233,7 +233,7 @@ A^B = 0011 0001
 
 The following table lists the bitwise operators supported by C. Assume variable 'A' holds 60 and variable 'B' holds 13, then −
 
-Show Examples
+Example:
 
 |Operator|	Description	|Example|
 |--------|--------------|-------|
@@ -325,7 +325,7 @@ An assignment operator is used for assigning a value to a variable. The most com
 
 The following table lists the assignment operators supported by the C language −
 
-Show Examples
+Examples:
 
 |Operator|	Description|	Example|
 |--------|-------------|-----------|
