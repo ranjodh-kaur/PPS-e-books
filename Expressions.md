@@ -269,7 +269,7 @@ Output
 
         Output = 8
 
-Bitwise OR operator |
+**Bitwise OR operator |**
 
 The output of bitwise OR is 1 if at least one corresponding bit of two operands is 1. In C Programming, bitwise OR operator is denoted by |.
 
@@ -295,7 +295,7 @@ Output
 
         Output = 29
 
-Bitwise XOR (exclusive OR) operator ^
+**Bitwise XOR (exclusive OR) operator ^**
 
 The result of bitwise XOR operator is 1 if the corresponding bits of two operands are opposite. It is denoted by ^.
 
