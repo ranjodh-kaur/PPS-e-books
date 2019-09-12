@@ -256,7 +256,7 @@ Let us suppose the bitwise AND operation of two integers 12 and 25.
           ________
           00001000  = 8 (In decimal)
 
-Example #1: Bitwise AND
+**Example #1: Bitwise AND**
 
         #include <stdio.h>
         int main()
@@ -282,7 +282,7 @@ Bitwise OR Operation of 12 and 25
           ________
           00011101  = 29 (In decimal)
 
-Example #2: Bitwise OR
+**Example #2: Bitwise OR**
 
         #include <stdio.h>
         int main()
@@ -309,7 +309,7 @@ Bitwise XOR Operation of 12 and 25
           ________
           00010101  = 21 (In decimal)
 
-Example #3: Bitwise XOR
+**Example #3: Bitwise XOR**
 
         #include <stdio.h>
         int main()
