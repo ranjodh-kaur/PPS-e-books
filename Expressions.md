@@ -456,10 +456,10 @@ Example
 
 When you compile and execute the above program, it produces the following result −
 
-Value of (a + b) * c / d is : 90
-Value of ((a + b) * c) / d is  : 90
-Value of (a + b) * (c / d) is  : 90
-Value of a + (b * c) / d is  : 50
+        Value of (a + b) * c / d is : 90
+        Value of ((a + b) * c) / d is  : 90
+        Value of (a + b) * (c / d) is  : 90
+        Value of a + (b * c) / d is  : 50
 
 Operators Associativity is used when two operators of same precedence appear in an expression. Associativity can be either Left to Right or Right to Left.
 
