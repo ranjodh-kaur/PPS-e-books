@@ -373,9 +373,7 @@ Other Operators
 
 The sizeof is a unary operator that returns the size of data (constants, variables, array, structure, etc).
 
-Example 6:
-
- sizeof Operator
+Example 6: sizeof Operator
 
         #include <stdio.h>
         int main()
