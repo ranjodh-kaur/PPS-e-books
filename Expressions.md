@@ -54,7 +54,8 @@ Show Examples
 |    --	    |Decrement operator decreases the integer value by one.|	A-- = 9|
 
 For Example: 
-   // Working of arithmetic operators
+   
+    // Working of arithmetic operators
     #include <stdio.h>
     int main()
     {
@@ -92,8 +93,9 @@ Show Examples
 |<	|Checks if the value of left operand is less than the value of right operand. If yes, then the condition becomes true.|	(A < B) is true.|
 |>=|	Checks if the value of left operand is greater than or equal to the value of right operand. If yes, then the condition becomes true.|	(A >= B) is not true.|
 |<=|	Checks if the value of left operand is less than or equal to the value of right operand. If yes, then the condition becomes true.|	(A <= B) is true.|
+
 Example :
-   // Working of relational operators
+    // Working of relational operators
     #include <stdio.h>
     int main()
     {
@@ -128,6 +130,7 @@ Show Examples
 | !      |	Called Logical NOT Operator.| It is used to reverse the logical state of its operand. If a condition is true, then Logical NOT operator will make it false.	!(A && B) is true.|
 
 Example: 
+ 
    // Working of logical operators
    #include <stdio.h>
    int main()
@@ -160,7 +163,7 @@ Bitwise operator works on bits and perform bit-by-bit operation. The truth table
 ^	Bitwise exclusive OR
 ~	Bitwise complement
 <<	Shift left
->>	Shift right
+`>>`Shift right
 
 |p|q|p & q| p \| q |p^q|
 |-|-|-----|--------|---|
@@ -192,7 +195,7 @@ Show Examples
 |Operator|	Description	|Example|
 |--------|--------------|-------|
 |&	|Binary AND Operator copies a bit to the result if it exists in both operands.|	(A & B) = 12, i.e., 0000 1100|
-|\|	|Binary OR Operator copies a bit if it exists in either operand.|	(A | B) = 61, i.e., 0011 1101|
+|\|	|Binary OR Operator copies a bit if it exists in either operand.|	(A \| B) = 61, i.e., 0011 1101|
 |^|	Binary XOR Operator copies the bit if it is set in one operand but not both.|	(A ^ B) = 49, i.e., 0011 0001|
 |~|	Binary One's Complement Operator is unary and has the effect of 'flipping' bits.|	(~A ) = ~(60), i.e,. -0111101|
 |<<|	Binary Left Shift Operator. The left operands value is moved left by the number of bits specified by the right operand.|	A << 2 = 240 i.e., 1111 0000|
@@ -221,7 +224,8 @@ Show Examples
 |\|=|	Bitwise inclusive OR and assignment operator.|	C \|= 2 is same as C = C \| 2|
 
 Example: 
-   // Working of assignment operators
+
+     // Working of assignment operators
      #include <stdio.h>
      int main()
      {
