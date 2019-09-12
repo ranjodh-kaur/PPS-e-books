@@ -153,12 +153,12 @@ Example:
 | \|\|     |	Called Logical OR Operator.| If any of the two operands is non-zero, then the condition becomes true.	(A || B) is true.|
 | !      |	Called Logical NOT Operator.| It is used to reverse the logical state of its operand. If a condition is true, then Logical NOT operator will make it false.	!(A && B) is true.|
 
-Example: 
+ Example: 
  
-   // Working of logical operators
-   #include <stdio.h>
-   int main()
-   {
+    // Working of logical operators
+    #include <stdio.h>
+    int main()
+    {
       int a = 5, b = 5, c = 10, result;
       result = (a == b) && (c > b);
       printf("(a == b) && (c > b) is %d \n", result);
