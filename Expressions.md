@@ -399,7 +399,7 @@ Operator precedence determines the grouping of terms in an expression and decide
 Here, operators with the highest precedence appear at the top of the table, those with the lowest appear at the bottom. Within an expression, higher precedence operators will be evaluated first.
 
 |Category|	Operator|	Associativity|
-|________|__________|________________|
+|--------|----------|----------------|
 |Postfix |	() [] -> . ++ - -|	Left to right|
 |Unary	|+ - ! ~ ++ - - (type)* & sizeof|	Right to left|
 |Multiplicative|	* / %|	Left to right|
@@ -419,30 +419,31 @@ Here, operators with the highest precedence appear at the top of the table, thos
 Example
 Try the following example to understand operator precedence in C −
 
-   #include <stdio.h>
+         #include <stdio.h>
 
-   int main() {
+          int main() 
+          {
 
-   int a = 20;
-   int b = 10;
-   int c = 15;
-   int d = 5;
-   int e;
+           int a = 20;
+           int b = 10;
+           int c = 15;
+           int d = 5;
+           int e;
  
-   e = (a + b) * c / d;      // ( 30 * 15 ) / 5
-   printf("Value of (a + b) * c / d is : %d\n",  e );
+           e = (a + b) * c / d;      // ( 30 * 15 ) / 5
+           printf("Value of (a + b) * c / d is : %d\n",  e );
 
-   e = ((a + b) * c) / d;    // (30 * 15 ) / 5
-   printf("Value of ((a + b) * c) / d is  : %d\n" ,  e );
+           e = ((a + b) * c) / d;    // (30 * 15 ) / 5
+           printf("Value of ((a + b) * c) / d is  : %d\n" ,  e );
 
-   e = (a + b) * (c / d);   // (30) * (15/5)
-   printf("Value of (a + b) * (c / d) is  : %d\n",  e );
+           e = (a + b) * (c / d);   // (30) * (15/5)
+           printf("Value of (a + b) * (c / d) is  : %d\n",  e );
 
-   e = a + (b * c) / d;     //  20 + (150/5)
-   printf("Value of a + (b * c) / d is  : %d\n" ,  e );
+           e = a + (b * c) / d;     //  20 + (150/5)
+           printf("Value of a + (b * c) / d is  : %d\n" ,  e );
   
-   return 0;
-}
+           return 0;
+          }
 
 When you compile and execute the above program, it produces the following result −
 
