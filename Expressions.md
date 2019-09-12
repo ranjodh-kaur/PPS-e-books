@@ -426,7 +426,8 @@ Here, operators with the highest precedence appear at the top of the table, thos
 |Comma	|,	|Left to right|
 
 Example
-Try the following example to understand operator precedence in C −
+
+  Try the following example to understand operator precedence in C −
 
          #include <stdio.h>
 
