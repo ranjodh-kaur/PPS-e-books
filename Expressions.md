@@ -467,4 +467,4 @@ Operators Associativity is used when two operators of same precedence appear in 
 
 For example: ‘*’ and ‘/’ have same precedence and their associativity is Left to Right, so the expression “100 / 10 * 10” is treated as “(100 / 10) * 10”.
 
-Operators Precedence and Associativity are two characteristics of operators that determine the evaluation order of sub-expressions in absence of brackets
+Operators Precedence and Associativity are two characteristics of operators that determine the evaluation order of sub-expressions in absence of brackets.
