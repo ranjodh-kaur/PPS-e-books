@@ -3,6 +3,8 @@
 An arithmetic expression is an expression using additions +, subtractions -, multiplications *, divisions /, and exponentials **. 
 An expression is a combination of one or more operands, zero or more operators, and zero or more pairs of parentheses.
 
+For example, in the expression. (5 + x). x and 5 are operands and + is an operator. The open parenthesis, which looks like **(** is used to begin parenthetical text. The close parenthesis **)**
+
 There are three kinds of expressions:
 
 - An arithmetic expression evaluates to a single arithmetic value.
@@ -13,7 +15,7 @@ The operators indicate what action or operation to perform.
 
 The operands indicate what items to apply the action to. An operand can be any of the following kinds of data items:
 
-- Constant
+- Constant 
 - Variable
 - Array element
 - Function
@@ -30,10 +32,13 @@ An operator is a symbol that tells the compiler to perform specific mathematical
 - Logical Operators
 - Bitwise Operators
 - Assignment Operators
-Misc Operators
-We will, in this chapter, look into the way each operator works.
+- Misc Operators
+We will, look into the way each operator works.
 
 **Arithmetic Operators**
+
+An arithmetic operator performs mathematical operations such as addition, subtraction, multiplication, division etc on numerical values (constants and variables).
+
 The following table shows all the arithmetic operators supported by the C language. Assume variable A holds 10 and variable B holds 20 then −
 
 Show Examples
@@ -48,7 +53,33 @@ Show Examples
 |    ++     |Increment operator increases the integer value by one.|	A++ = 11
 |    --	    |Decrement operator decreases the integer value by one.|	A-- = 9|
 
+For Example: 
+   // Working of arithmetic operators
+    #include <stdio.h>
+    int main()
+    {
+       int a = 9,b = 4, c;
+  
+       c = a+b;
+       printf("a+b = %d \n",c);
+       c = a-b;
+       printf("a-b = %d \n",c);
+       c = a*b;
+       printf("a*b = %d \n",c);
+       c = a/b;
+       printf("a/b = %d \n",c);
+       c = a%b;
+       printf("Remainder when a divided by b = %d \n",c);
+    
+       return 0;
+    }
+
 **Relational Operators**
+
+A relational operator checks the relationship between two operands. If the relation is true, it returns 1; if the relation is false, it returns value 0.
+
+Relational operators are used in decision making and loops.
+
 The following table shows all the relational operators supported by C. Assume variable A holds 10 and variable B holds 20 then −
 
 Show Examples
@@ -61,8 +92,31 @@ Show Examples
 |<	|Checks if the value of left operand is less than the value of right operand. If yes, then the condition becomes true.|	(A < B) is true.|
 |>=|	Checks if the value of left operand is greater than or equal to the value of right operand. If yes, then the condition becomes true.|	(A >= B) is not true.|
 |<=|	Checks if the value of left operand is less than or equal to the value of right operand. If yes, then the condition becomes true.|	(A <= B) is true.|
+Example :
+   // Working of relational operators
+    #include <stdio.h>
+    int main()
+    {
+       int a = 5, b = 5, c = 10;
+       printf("%d == %d is %d \n", a, b, a == b);
+       printf("%d == %d is %d \n", a, c, a == c);
+       printf("%d > %d is %d \n", a, b, a > b);
+       printf("%d > %d is %d \n", a, c, a > c);
+       printf("%d < %d is %d \n", a, b, a < b);
+       printf("%d < %d is %d \n", a, c, a < c);
+       printf("%d != %d is %d \n", a, b, a != b);
+       printf("%d != %d is %d \n", a, c, a != c);
+       printf("%d >= %d is %d \n", a, b, a >= b);
+       printf("%d >= %d is %d \n", a, c, a >= c);
+       printf("%d <= %d is %d \n", a, b, a <= b);
+       printf("%d <= %d is %d \n", a, c, a <= c);
+       return 0;
+    }
 
 **Logical Operators**
+
+An expression containing logical operator returns either 0 or 1 depending upon whether expression results true or false. Logical operators are commonly used in decision making in C programming.
+
 Following table shows all the logical operators supported by C language. Assume variable A holds 1 and variable B holds 0, then −
 
 Show Examples
@@ -73,8 +127,40 @@ Show Examples
 | \|\|     |	Called Logical OR Operator.| If any of the two operands is non-zero, then the condition becomes true.	(A || B) is true.|
 | !      |	Called Logical NOT Operator.| It is used to reverse the logical state of its operand. If a condition is true, then Logical NOT operator will make it false.	!(A && B) is true.|
 
+Example: 
+   // Working of logical operators
+   #include <stdio.h>
+   int main()
+   {
+      int a = 5, b = 5, c = 10, result;
+      result = (a == b) && (c > b);
+      printf("(a == b) && (c > b) is %d \n", result);
+      result = (a == b) && (c < b);
+      printf("(a == b) && (c < b) is %d \n", result);
+      result = (a == b) || (c < b);
+      printf("(a == b) || (c < b) is %d \n", result);
+      result = (a != b) || (c < b);
+      printf("(a != b) || (c < b) is %d \n", result);
+      result = !(a != b);
+      printf("!(a == b) is %d \n", result);
+      result = !(a == b);
+      printf("!(a == b) is %d \n", result);
+      return 0;
+    }
+
 **Bitwise Operators**
+
+During computation, mathematical operations like: addition, subtraction, multiplication, division, etc are converted to bit-level which makes processing faster and saves power.
+
+Bitwise operators are used in C programming to perform bit-level operations.
+
 Bitwise operator works on bits and perform bit-by-bit operation. The truth tables for &, |, and ^ is as follows −
+&	Bitwise AND
+|	Bitwise OR
+^	Bitwise exclusive OR
+~	Bitwise complement
+<<	Shift left
+>>	Shift right
 
 |p|q|p & q| p \| q |p^q|
 |-|-|-----|--------|---|
@@ -113,6 +199,9 @@ Show Examples
 |>>|	Binary Right Shift Operator. The left operands value is moved right by the number of bits specified by the right operand.	|A >> 2 = 15 i.e., 0000 1111|
 
 **Assignment Operators**
+
+An assignment operator is used for assigning a value to a variable. The most common assignment operator is =
+
 The following table lists the assignment operators supported by the C language −
 
 Show Examples
@@ -130,5 +219,26 @@ Show Examples
 |&=	|Bitwise AND assignment operator.|	C &= 2 is same as C = C & 2|
 |^=|	Bitwise exclusive OR and assignment operator.|	C ^= 2 is same as C = C ^ 2|
 |\|=|	Bitwise inclusive OR and assignment operator.|	C \|= 2 is same as C = C \| 2|
+
+Example: 
+   // Working of assignment operators
+     #include <stdio.h>
+     int main()
+     {
+       int a = 5, c;
+       c = a;      // c is 5
+       printf("c = %d\n", c);
+       c += a;     // c is 10 
+       printf("c = %d\n", c);
+       c -= a;     // c is 5
+       printf("c = %d\n", c);
+       c *= a;     // c is 25
+       printf("c = %d\n", c);
+       c /= a;     // c is 5
+       printf("c = %d\n", c);
+       c %= a;     // c = 0
+       printf("c = %d\n", c);
+       return 0;
+      }
 
 
