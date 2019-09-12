@@ -259,6 +259,7 @@ Let us suppose the bitwise AND operation of two integers 12 and 25.
 Example #1: 
         
 Bitwise AND
+
         #include <stdio.h>
         int main()
         {
@@ -284,7 +285,9 @@ Bitwise OR Operation of 12 and 25
           00011101  = 29 (In decimal)
 
 Example #2: 
+
   Bitwise OR
+
         #include <stdio.h>
         int main()
         {
@@ -310,7 +313,9 @@ Bitwise XOR Operation of 12 and 25
           ________
           00010101  = 21 (In decimal)
 
-Example #3: Bitwise XOR
+Example #3: 
+
+Bitwise XOR
 
         #include <stdio.h>
         int main()
@@ -373,7 +378,9 @@ Other Operators
 
 The sizeof is a unary operator that returns the size of data (constants, variables, array, structure, etc).
 
-Example 6: sizeof Operator
+Example 6:
+
+ sizeof Operator
 
         #include <stdio.h>
         int main()
