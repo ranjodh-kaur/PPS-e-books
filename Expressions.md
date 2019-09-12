@@ -1,4 +1,4 @@
-**Arithmetic expressions and precedence** 
+**Arithmetic Expressions and Precedence** 
 
 An arithmetic expression is an expression using additions +, subtractions -, multiplications *, divisions /, and exponentials **. 
 An expression is a combination of one or more operands, zero or more operators, and zero or more pairs of parentheses.
@@ -33,6 +33,7 @@ An operator is a symbol that tells the compiler to perform specific mathematical
 - Bitwise Operators
 - Assignment Operators
 - Misc Operators
+
 We will, look into the way each operator works.
 
 **Arithmetic Operators**
@@ -255,7 +256,9 @@ Let us suppose the bitwise AND operation of two integers 12 and 25.
           ________
           00001000  = 8 (In decimal)
 
-Example #1: Bitwise AND
+Example #1: 
+        
+Bitwise AND
         #include <stdio.h>
         int main()
         {
@@ -280,7 +283,8 @@ Bitwise OR Operation of 12 and 25
           ________
           00011101  = 29 (In decimal)
 
-Example #2: Bitwise OR
+Example #2: 
+  Bitwise OR
         #include <stdio.h>
         int main()
         {
@@ -370,6 +374,7 @@ Other Operators
 The sizeof is a unary operator that returns the size of data (constants, variables, array, structure, etc).
 
 Example 6: sizeof Operator
+
         #include <stdio.h>
         int main()
         {
@@ -394,7 +399,8 @@ Output
 
 Operator precedence determines the grouping of terms in an expression and decides how an expression is evaluated. Certain operators have higher precedence than others; for example, the multiplication operator has a higher precedence than the addition operator.
 
-        For example, x = 7 + 3 * 2; here, x is assigned 13, not 20 because operator * has a higher precedence than +, so it first gets multiplied with 3*2 and then adds into 7.
+        For example, x = 7 + 3 * 2; here, x is assigned 13, not 20 because operator * has a higher precedence than +, 
+                     so it first gets multiplied with 3*2 and then adds into 7.
 
 Here, operators with the highest precedence appear at the top of the table, those with the lowest appear at the bottom. Within an expression, higher precedence operators will be evaluated first.
 
