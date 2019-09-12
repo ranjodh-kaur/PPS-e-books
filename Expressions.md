@@ -1,4 +1,5 @@
 **Arithmetic Expressions and Precedence** 
+---------------------------------------
 
 An arithmetic expression is an expression using additions +, subtractions -, multiplications *, divisions /, and exponentials **. 
 An expression is a combination of one or more operands, zero or more operators, and zero or more pairs of parentheses.
@@ -37,7 +38,7 @@ An operator is a symbol that tells the compiler to perform specific mathematical
 We will, look into the way each operator works.
 
 **Arithmetic Operators**
-
+------------------------------
 An arithmetic operator performs mathematical operations such as addition, subtraction, multiplication, division etc on numerical values (constants and variables).
 
 The following table shows all the arithmetic operators supported by the C language. Assume variable A holds 10 and variable B holds 20 then −
@@ -85,7 +86,7 @@ Output
     Remainder when a divided by b=1
 
 **Relational Operators**
-
+---------------------------------------
 A relational operator checks the relationship between two operands. If the relation is true, it returns 1; if the relation is false, it returns value 0.
 
 Relational operators are used in decision making and loops.
