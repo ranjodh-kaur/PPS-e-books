@@ -102,8 +102,8 @@ Show Examples
 |>=|	Checks if the value of left operand is greater than or equal to the value of right operand. If yes, then the condition becomes true.|	(A >= B) is not true.|
 |<=|	Checks if the value of left operand is less than or equal to the value of right operand. If yes, then the condition becomes true.|	(A <= B) is true.|
 
-
 Example:
+
     // Working of relational operators
     #include <stdio.h>
     int main()
@@ -300,11 +300,14 @@ The result of bitwise XOR operator is 1 if the corresponding bits of two operand
         25 = 00011001 (In Binary)
 
 Bitwise XOR Operation of 12 and 25
+
           00001100
         ^ 00011001
           ________
           00010101  = 21 (In decimal)
+
 Example #3: Bitwise XOR
+
         #include <stdio.h>
         int main()
         {
