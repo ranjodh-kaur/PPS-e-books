@@ -1,7 +1,7 @@
 **Arithmetic Expressions and Precedence** 
 ---------------------------------------
 
-An arithmetic expression is an expression using additions +, subtractions -, multiplications *, divisions /, and exponentials **. 
+An arithmetic expression is an expression using additions +, subtractions -, multiplications *, divisions /, modulus %. 
 An expression is a combination of one or more operands, zero or more operators, and zero or more pairs of parentheses.
 
 For example, in the expression. (5 + x). x and 5 are operands and + is an operator. The open parenthesis, which looks like **'('** is used to begin parenthetical text. The close parenthesis **')'**
@@ -37,7 +37,7 @@ An operator is a symbol that tells the compiler to perform specific mathematical
 
 We will, look into the way each operator works.
 
-**Arithmetic Operators**
+#### Arithmetic Operators
 ------------------------------
 An arithmetic operator performs mathematical operations such as addition, subtraction, multiplication, division etc on numerical values (constants and variables).
 
@@ -85,7 +85,7 @@ Output
     a/b = 2
     Remainder when a divided by b=1
 
-**Relational Operators**
+#### Relational Operators
 ---------------------------------------
 A relational operator checks the relationship between two operands. If the relation is true, it returns 1; if the relation is false, it returns value 0.
 
@@ -141,7 +141,7 @@ Output
         5 <= 5 is 1
         5 <= 10 is 1
 
-**Logical Operators**
+#### Logical Operators
 -----------------------
 An expression containing logical operator returns either 0 or 1 depending upon whether expression results true or false. Logical operators are commonly used in decision making in C programming.
 
@@ -196,7 +196,7 @@ Explanation of logical operator program
         !(a == b) evaluates to 0 because (a == b) is 1 (true). Hence, !(a == b) is 0 (false).
 
 
-**Bitwise Operators**
+#### Bitwise Operators
 ----------------------------
 
 During computation, mathematical operations like: addition, subtraction, multiplication, division, etc are converted to bit-level which makes processing faster and saves power.
@@ -271,7 +271,7 @@ Output
 
         Output = 8
 
-**Bitwise OR operator |**
+#### Bitwise OR operator |
 ------------------------------
 The output of bitwise OR is 1 if at least one corresponding bit of two operands is 1. In C Programming, bitwise OR operator is denoted by |.
 
@@ -298,7 +298,7 @@ Output
 
         Output = 29
 
-**Bitwise XOR (exclusive OR) operator ^**
+#### Bitwise XOR (exclusive OR) operator ^
 =========================================
 The result of bitwise XOR operator is 1 if the corresponding bits of two operands are opposite. It is denoted by ^.
 
@@ -325,7 +325,7 @@ Output
 
         Output = 21
 
-**Assignment Operators**
+#### Assignment Operators
 --------------------------
 An assignment operator is used for assigning a value to a variable. The most common assignment operator is =
 
@@ -369,9 +369,9 @@ Example:
        return 0;
       }
 
-Other Operators
+**Misc Operators**
 
-**The sizeof operator**
+#### The sizeof operator
 -------------------------
 The sizeof is a unary operator that returns the size of data (constants, variables, array, structure, etc).
 
