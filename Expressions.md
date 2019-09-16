@@ -299,7 +299,8 @@ Output
         Output = 29
 
 #### Bitwise XOR (exclusive OR) operator ^
-=========================================
+----------------------------------------
+
 The result of bitwise XOR operator is 1 if the corresponding bits of two operands are opposite. It is denoted by ^.
 
         12 = 00001100 (In Binary)
